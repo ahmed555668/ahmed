@@ -1,0 +1,66 @@
+Teaching “Machine Learning” to Middle School Students Using Different Prompting Techniques
+
+1. Zero-Shot Prompt
+
+Prompt:
+"Explain Machine Learning in simple words for middle school students, using a fun example (under 150 words)."
+Sample Answer:
+Machine Learning is when a computer learns from examples instead of rules. Show it many cat and dog pictures, and it figures out how to tell them apart, like a student learning from practice.
+
+
+
+2. Few-Shot Prompt
+
+Prompt:
+"Examples:
+
+Gravity: ‘Gravity is like an invisible hand that pulls everything down.’
+
+Photosynthesis: ‘Plants make food using sunlight, like tiny solar panels.’
+Now, explain Machine Learning in the same style (under 100 words)."
+Sample Answer:
+Machine Learning is like training a dog, but the dog is a computer. We give it many examples, like cat and dog photos, and it practices until it can tell the difference.
+
+
+3. Chain-of-Thought Prompt
+
+Prompt:
+"Step by step, explain Machine Learning to middle schoolers:
+
+1. What they know
+
+
+2. Small parts
+
+
+3. Simple example
+
+
+4. Why it matters (150 words)."
+Sample Answer:
+Students know games and pets. Machine Learning is when computers practice with examples instead of rules. It learns patterns—like spotting cats and dogs—and helps apps, games, and robots become smarter.
+
+
+4. Tree-of-Thought Prompt
+
+Prompt:
+"Give 3 ways to explain Machine Learning (game, animal, school). Pick the best and write it (120 words)."
+Sample Answer:
+Best: Animal training. Machine Learning is like training a puppy, but the puppy is a computer. We show it examples, and it learns patterns, like recognizing animals in photos.
+
+
+5. Multimodal Chain-of-Thought Prompt
+
+Prompt:
+"Explain Machine Learning with a diagram idea and short text (80 words)."
+Sample Answer:
+Diagram: Computer + arrows from “Cat photos” and “Dog photos” → Lightbulb (“Learning”) → “Answer: Cat or Dog?”
+Text: The computer studies examples, finds patterns, and learns to tell things apart. More practice makes it smarter.
+
+Comparison
+Technique	Clarity	Engagement	Depth
+Zero-Shot	Basic	Medium	Low
+Few-Shot	Clear	High	Low-Med
+Chain-of-Thought	High	Medium	High
+Tree-of-Thought	Very High	High	High
+Multimodal CoT	Very High	Very High	Medium
